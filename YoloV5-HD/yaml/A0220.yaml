@@ -1,0 +1,33 @@
+train:
+  - E:/MyLoad/PyCharm2022/pythonProject/yolov5-5.0/data2/1/images
+  - E:/MyLoad/PyCharm2022/pythonProject/yolov5-5.0/data2/2/images
+  - E:/MyLoad/PyCharm2022/pythonProject/yolov5-5.0/data2/500-1/images
+  - E:/MyLoad/PyCharm2022/pythonProject/yolov5-5.0/data2/500-2/images
+  - E:/MyLoad/PyCharm2022/pythonProject/yolov5-5.0/data2/650/images
+  - E:/MyLoad/PyCharm2022/pythonProject/yolov5-5.0/data2/650-2/images
+  - E:/MyLoad/PyCharm2022/pythonProject/yolov5-5.0/data2/belt20250218/images
+  - E:/MyLoad/PyCharm2022/pythonProject/yolov5-5.0/data2/farHat20250220/images
+  - E:/MyLoad/PyCharm2022/pythonProject/yolov5-5.0/data2/min20250214/1/images
+  - E:/MyLoad/PyCharm2022/pythonProject/yolov5-5.0/data2/min20250214/4/images
+  - E:/MyLoad/PyCharm2022/pythonProject/yolov5-5.0/data2/min20250214/16/images
+  - E:/MyLoad/PyCharm2022/pythonProject/yolov5-5.0/data2/noBelt20250220/images
+
+val:
+  - E:/MyLoad/PyCharm2022/pythonProject/yolov5-5.0/data2/1/images
+  - E:/MyLoad/PyCharm2022/pythonProject/yolov5-5.0/data2/2/images
+  - E:/MyLoad/PyCharm2022/pythonProject/yolov5-5.0/data2/500-1/images
+  - E:/MyLoad/PyCharm2022/pythonProject/yolov5-5.0/data2/500-2/images
+  - E:/MyLoad/PyCharm2022/pythonProject/yolov5-5.0/data2/650/images
+  - E:/MyLoad/PyCharm2022/pythonProject/yolov5-5.0/data2/650-2/images
+  - E:/MyLoad/PyCharm2022/pythonProject/yolov5-5.0/data2/belt20250218/images
+  - E:/MyLoad/PyCharm2022/pythonProject/yolov5-5.0/data2/farHat20250220/images
+  - E:/MyLoad/PyCharm2022/pythonProject/yolov5-5.0/data2/min20250214/1/images
+  - E:/MyLoad/PyCharm2022/pythonProject/yolov5-5.0/data2/min20250214/4/images
+  - E:/MyLoad/PyCharm2022/pythonProject/yolov5-5.0/data2/min20250214/16/images
+  - E:/MyLoad/PyCharm2022/pythonProject/yolov5-5.0/data2/noBelt20250220/images
+
+# number of classes
+nc: 5
+
+# class names
+names: [ 'belt','noBelt','smoking','hat','noHat','beltHook' ]

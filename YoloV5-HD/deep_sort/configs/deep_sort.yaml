@@ -1,0 +1,64 @@
+#DEEPSORT:
+#  REID_CKPT: "deep_sort/deep_sort/deep/checkpoint/ckpt.t7"
+#  MAX_DIST: 0.2 #0.2
+#  MIN_CONFIDENCE: 0.8
+#  NMS_MAX_OVERLAP: 0.35
+#  MAX_IOU_DISTANCE: 0.45
+#  MAX_AGE: 30  #700
+#  N_INIT: 1
+#  NN_BUDGET: 100
+
+DEEPSORT:
+  REID_CKPT: "deep_sort/deep_sort/deep/checkpoint/ckpt.t7"
+  MAX_DIST: 0.4 #0.2
+  MIN_CONFIDENCE: 0.75
+  NMS_MAX_OVERLAP: 0.35
+  MAX_IOU_DISTANCE: 0.45
+  MAX_AGE: 20  #700
+  N_INIT: 4
+  NN_BUDGET: 100
+  
+#  REID_CKPT: "deep_sort/deep_sort/deep/checkpoint/ckpt.t7"
+#  MAX_DIST: 0.1 #0.2
+#  MIN_CONFIDENCE: 0.8
+#  NMS_MAX_OVERLAP: 0.35
+#  MAX_IOU_DISTANCE: 0.7
+#  MAX_AGE: 30  #700
+#  N_INIT: 1
+#  NN_BUDGET: 100
+
+#  REID_CKPT: "deep_sort/deep_sort/deep/checkpoint/ckpt.t7"
+#  MAX_DIST: 0.2 #0.2
+#  MIN_CONFIDENCE: 0.9
+#  NMS_MAX_OVERLAP: 0.35
+#  MAX_IOU_DISTANCE: 0.7
+#  MAX_AGE: 68  #700
+#  N_INIT: 1
+#  NN_BUDGET: 100
+
+#  REID_CKPT: "deep_sort/deep_sort/deep/checkpoint/ckpt.t7"
+#  MAX_DIST: 0.2 #0.2
+#  MIN_CONFIDENCE: 0.8
+#  NMS_MAX_OVERLAP: 0.35
+#  MAX_IOU_DISTANCE: 0.45
+#  MAX_AGE: 30  #700
+#  N_INIT: 3
+#  NN_BUDGET: 100
+
+#  REID_CKPT: "deep_sort/deep_sort/deep/checkpoint/ckpt.t7"
+#  MAX_DIST: 0.3 #0.2
+#  MIN_CONFIDENCE: 0.7
+#  NMS_MAX_OVERLAP: 0.35
+#  MAX_IOU_DISTANCE: 0.45
+#  MAX_AGE: 30  #700
+#  N_INIT: 3
+#  NN_BUDGET: 100
+
+#  REID_CKPT: "deep_sort/deep_sort/deep/checkpoint/ckpt.t7"
+#  MAX_DIST: 0.4 #0.2
+#  MIN_CONFIDENCE: 0.75
+#  NMS_MAX_OVERLAP: 0.35
+#  MAX_IOU_DISTANCE: 0.45
+#  MAX_AGE: 30  #700
+#  N_INIT: 3
+#  NN_BUDGET: 100
